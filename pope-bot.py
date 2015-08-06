@@ -59,6 +59,7 @@ def checkForFrancis(subreddit):
 					time.sleep(e.sleep_time)
 				except praw.errors.HTTPException as e:
 					print "HTTP Exception occured while trying to comment"
+					print e;
 				else:
 					completed_posts.append(submission.id)
 					print submission.id + ": " + submission.title
