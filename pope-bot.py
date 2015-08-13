@@ -40,13 +40,13 @@ def main():
 		loadCompleted()
 		print "Read in from redis"
 
-	while True:
-		for sub in SUBREDDITS:
-			subreddit = r.get_subreddit(sub)
-			checkForFrancis(subreddit)
-		checkForMessages()
-		saveCompleted()
-		time.sleep(900)
+	#while True:
+	for sub in SUBREDDITS:
+		subreddit = r.get_subreddit(sub)
+		checkForFrancis(subreddit)
+	checkForMessages()
+	saveCompleted()
+		#time.sleep(900)
 
 #check for post containing "Pope Francis" in the title, comment on them, and notify admin that comment has been made
 def checkForFrancis(subreddit):
