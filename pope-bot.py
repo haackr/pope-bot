@@ -46,6 +46,7 @@ def main():
 		checkForFrancis(subreddit)
 	checkForMessages()
 	saveCompleted()
+	exit()
 		#time.sleep(900)
 
 #check for post containing "Pope Francis" in the title, comment on them, and notify admin that comment has been made
