@@ -23,7 +23,7 @@ import redis
 ADMIN_USER = "ryguyrun"
 USERAGENT = "Pope-Bot v1.0 by /u/ryguyrun"
 #Bot will check these subreddits only.
-SUBREDDITS = ["sidehugs", "brokehugs", "popebot"]
+SUBREDDITS = ["sidehugs", "brokehugs", "popebot", "ainbow"]
 USERNAME = os.environ.get("REDDIT_USER")
 PASSWORD = os.environ.get("REDDIT_PASS")
 COMPLETED_POSTS_KEY = "complete:posts"
