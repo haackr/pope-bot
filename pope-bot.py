@@ -22,7 +22,7 @@ import redis
 
 ADMIN_USER = "ryguyrun"
 USERAGENT = "Pope-Bot v1.0 by /u/ryguyrun"
-#Bot will check these subreddits only.
+#Bot will check these subreddits onlry.
 SUBREDDITS = ["sidehugs", "brokehugs", "popebot", "ainbow"]
 USERNAME = os.environ.get("REDDIT_USER")
 PASSWORD = os.environ.get("REDDIT_PASS")
